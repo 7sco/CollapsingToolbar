@@ -32,9 +32,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-    CollapsingToolbar()
+//    Text(text = "Hello $name!")
 
+    CollapsingToolbar()
 }
 
 @Preview(showBackground = true)
