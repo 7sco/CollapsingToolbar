@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.isco.collapsingtoolbarexample.ui.theme.CollapsingToolbarExampleTheme
+import com.isco.collapsingtoolbarlibrary.CollapsingToolbar
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +33,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String) {
     Text(text = "Hello $name!")
+    CollapsingToolbar()
+
 }
 
 @Preview(showBackground = true)

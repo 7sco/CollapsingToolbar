@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.isco.collapsingtoolbarlibrary'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         minSdk 21
@@ -28,6 +28,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.1.1'
+    }
 }
 
 dependencies {
@@ -39,6 +45,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
+    implementation "androidx.compose.ui:ui-tooling-preview:1.3.1"
     implementation "androidx.compose.ui:ui:$compose_ui_version"
     implementation 'androidx.compose.material:material:1.1.1'
 }
