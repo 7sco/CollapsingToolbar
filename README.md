@@ -10,4 +10,7 @@ CollapsingToolbarLayout</a> using Jetpack Compose
 
 ## Preview
 
-[Screen_recording_20230831_163743.webm](https://github.com/7sco/CollapsingToolbar/assets/21040125/6c775493-8cb8-4bd0-9356-fd7a5d156063)
+
+
+
+https://github.com/7sco/CollapsingToolbar/assets/21040125/02a3d8f2-c3b6-4c68-af5f-599cace70f7f
